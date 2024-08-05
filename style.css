@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Madmi+One&isplay+swap');
+
+* {
+    margin:0px;
+    padding:0px;
+    font-family: "Madimi One", sans-serif;
+    margin: auto;
+    font-size: normal;
+    background-color: darkred;
+}
+
+h1{
+    font-size: 5vmax;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.content-info{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
